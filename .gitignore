@@ -1,0 +1,28 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environment Variables
+.env
+
+# Vector Database and SQLite Persistence
+data/vector_db/
+data/enterprise.db
+*.db
+*.sqlite3
+
+# Streamlit Local Config
+.streamlit/
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
